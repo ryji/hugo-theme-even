@@ -4,13 +4,11 @@
 
 .post-content {
   word-wrap: break-word;
-  text-indent:2em;
 
   @for $i from 1 through 6 {
     h#{$i} {
       font-weight: 400;
       font-family: $global-serif-font-family;
-      text-indent:0em;
       .anchor {
         float: left;
         line-height: 1;
